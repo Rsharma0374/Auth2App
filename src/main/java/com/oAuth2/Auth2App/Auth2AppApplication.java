@@ -11,7 +11,12 @@ public class Auth2AppApplication {
 
 	@GetMapping
 	public String welcome() {
-		return "welcome";
+		return "   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥\n" +
+				"  ♥                                                 ♥\n" +
+				" ♥                  Welcome to                       ♥\n" +
+				" ♥                   Auth2App                        ♥\n" +
+				"  ♥                                                 ♥\n" +
+				"   ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥\n";
 	}
 
 	public static void main(String[] args) {
